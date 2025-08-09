@@ -33,8 +33,9 @@ sudo apt install gcc-arm-linux-gnueabi qemu-user make
 
 1. Clone the repository (if not already done):
    ```bash
-   git clone <repository-url>
+   mkdir Calculator
    cd Calculator
+   git clone https://github.com/abdullah123ch/Arm-Assembly-based-Calculator.git
    ```
 
 2. Build the project:
@@ -87,17 +88,9 @@ Result: 50
 - The C interface handles user input/output and error checking
 - The project is built as a static binary for ARM architecture
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Author
-
-[Your Name] - [Your Email]
 
 ---
 
