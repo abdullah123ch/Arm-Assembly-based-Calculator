@@ -1,7 +1,6 @@
-# Makefile for mixed C + ARM assembly (static, armv7)
 CC = arm-linux-gnueabi-gcc
 AS = arm-linux-gnueabi-as
-LD = arm-linux-gnueabi-gcc   # using gcc as linker is easier
+LD = arm-linux-gnueabi-gcc   
 QEMU = qemu-arm
 CFLAGS = -Wall -O2 -static -march=armv7-a
 ASFLAGS = -march=armv7-a
