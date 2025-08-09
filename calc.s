@@ -45,6 +45,7 @@ asm_div:
     add r5, r5, r5
     add r5, r5, r7
     cmp r5, r3
+    
     movge r7, #1
     movlt r7, #0
     subge r5, r5, r3
